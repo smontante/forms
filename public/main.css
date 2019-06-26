@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+    background-image: url('/assets/bg.jpg');
+    font-family: 'Oswald', sans-serif;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.image {
+    margin: auto;
+    border-radius: 8px;
+    width: 60%;
+    height: 250px;
+    background-image: url('/assets/realestate.jpg');
+    padding: 10px;
+    box-shadow: 10px 10px 5px whitesmoke;
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.questions {
+    margin: -30px 300px;
+    z-index: 0;
+    border-radius: 8px;
+    width: 50%;
+    height: 100px;
+    background-color:white;
+    padding: 20px;
+    box-shadow: 10px 10px 5px #1C75B9;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.grid-container {
+    margin:10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #1C75B9;
+    padding: 10px;
+    border-radius: 16px;
+    opacity: 0,9;
+    box-shadow: 10px 10px 5px whitesmoke;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #1C75B9;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 16px;
+    margin:4px;
+  }
+
+  .grid-item:hover {
+      background-color: lightseagreen;
+  }
+
+  .question {
+      margin: 300px 0px;
+  }
+
+
+  @media only screen and (min-width: 300px) {
+    .questions {
+        margin: 30px 40px;
+        width: 70%;
+        padding: 10px;
+        text-align: center;
+        align-content: center;
+        height: 70px;
+    }
+
+    .questions h4 {
+        font-size:16px;
+    }
+
+    .grid-item {
+        font-size:16px;
+    }
+
+    .image {
+        height: 150px;
+    }
+
+    .image img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+}
